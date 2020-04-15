@@ -7,9 +7,11 @@ import Header from "./Header";
 import Blog from "./Blog";
 import BlogDetail from "./BlogDetail";
 import React, { Component }  from 'react';
+//install bootstrap dulu
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-
+// Ini merupakan functional component
+// https://getbootstrap.com/docs/4.4/examples/navbar-static/
 function App() {
   return (
     <BrowserRouter>
